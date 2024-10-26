@@ -1,33 +1,26 @@
-<html lang="en">
+<html lang="en" data-theme="forest">
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Hey there~</title>
     <link href="./output.css" rel="stylesheet" />
   </head>
-  <body class="bg-blue-300">
-    <div class="flex h-16 items-center justify-between bg-white p-4">
+  <body>
+    <div class="flex h-16 items-center justify-between p-4">
       <img src="./imgs/logo.svg" alt="logo" />
 
-      <div class="flex space-x-4 text-blue-500">
-        <a href="#">Home</a>
-        <a href="#">Features</a>
-        <a href="#">Community</a>
-        <a href="#">Support</a>
+      <div class="join">
+        <button class="btn join-item" href="#">Home</button>
+        <button class="btn join-item" href="#">Features</button>
+        <button class="btn join-item" href="#">Community</button>
+        <button class="btn join-item" href="#">Support</button>
       </div>
 
       <div class="flex space-x-2">
-        <button
-          class="rounded-md border-2 border-blue-500 px-4 py-2 text-blue-500 transition
-            duration-500 ease-in-out hover:border-green-500 hover:bg-green-500
-            hover:text-white"
-        >
-          Login
-        </button>
+        <button class="btn btn-accent">Login</button>
 
         <button
-          class="rounded-md border-2 border-blue-500 bg-blue-500 px-4 py-2 text-white
-            hover:animate-spin"
+          class="btn btn-info rounded-md border-2 px-4 py-2 text-white hover:animate-spin"
         >
           Sign Up
         </button>
@@ -46,8 +39,8 @@
         <input class="h-full w-full rounded-full pl-10 pr-20 outline-none" />
 
         <button
-          class="absolute right-0 h-full rounded-br-2xl rounded-tr-2xl border border-white
-            bg-blue-500 px-4 text-white"
+          class="btn btn-secondary absolute right-0 h-full rounded-br-2xl rounded-tr-2xl border
+            border-white"
         >
           Search
         </button>
